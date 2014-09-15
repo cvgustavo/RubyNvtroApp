@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140915225406) do
+ActiveRecord::Schema.define(version: 20140915225720) do
 
   create_table "contatos", force: true do |t|
     t.string   "nome"
@@ -39,5 +39,21 @@ ActiveRecord::Schema.define(version: 20140915225406) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "enderecos", force: true do |t|
+    t.string   "nome"
+    t.string   "rua"
+    t.string   "numero"
+    t.string   "complemento"
+    t.string   "CEP"
+    t.string   "cidade"
+    t.string   "estado"
+    t.integer  "donoendereco_id"
+    t.string   "donoendereco_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "enderecos", ["donoendereco_id", "donoendereco_type"], name: "index_enderecos_on_donoendereco_id_and_donoendereco_type", using: :btree
 
 end
