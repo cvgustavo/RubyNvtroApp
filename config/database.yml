@@ -13,8 +13,8 @@ development:
   encoding: utf8
   database: NvtroApp_development
   pool: 5
-  username: root
-  password:
+  username: mysql
+  password: 1A2B3W1a2b3w
   socket: /var/run/mysqld/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -25,8 +25,8 @@ test:
   encoding: utf8
   database: NvtroApp_test
   pool: 5
-  username: root
-  password:
+  username: mysql
+  password: 1A2B3W1a2b3w
   socket: /var/run/mysqld/mysqld.sock
 
 production:
@@ -34,6 +34,6 @@ production:
   encoding: utf8
   database: NvtroApp_production
   pool: 5
-  username: root
-  password:
+  username: mysql
+  password: 1A2B3W1a2b3w
   socket: /var/run/mysqld/mysqld.sock
