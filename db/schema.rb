@@ -11,7 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140915224240) do
+ActiveRecord::Schema.define(version: 20140915225406) do
+
+  create_table "contatos", force: true do |t|
+    t.string   "nome"
+    t.string   "funcao"
+    t.string   "telefone"
+    t.string   "celular"
+    t.string   "email"
+    t.integer  "donocontato_id"
+    t.string   "donocontato_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "contatos", ["donocontato_id", "donocontato_type"], name: "index_contatos_on_donocontato_id_and_donocontato_type", using: :btree
 
   create_table "convenios", force: true do |t|
     t.string   "nome"
