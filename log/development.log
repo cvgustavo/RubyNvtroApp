@@ -132,3 +132,12 @@ Started GET "/" for 177.98.219.36 at 2014-09-15 05:48:09 -0300
 Processing by Rails::WelcomeController#index as HTML
   Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (1.6ms)
 Completed 200 OK in 19ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (10.7ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (10.1ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateConvenios (20140915224240)
+  [1m[35m (3.3ms)[0m  CREATE TABLE `convenios` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `nome` varchar(255), `tipo` varchar(255), `urllogo` varchar(255), `site` varchar(255), `datalimitefaturamento` date, `faturamentomedio` decimal(8,2), `ultimofaturamento` decimal(8,2), `qtdpacientes` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140915224240')
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
