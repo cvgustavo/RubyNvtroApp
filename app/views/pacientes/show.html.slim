@@ -1,0 +1,27 @@
+p#notice = notice
+
+p
+  strong Nome:
+  = @paciente.nome
+p
+  strong Convenio:
+  = @paciente.convenio
+p
+  strong Carteiranumero:
+  = @paciente.carteiranumero
+p
+  strong Idade:
+  = @paciente.idade
+p
+  strong Peso:
+  = @paciente.peso
+p
+  strong Altura:
+  = @paciente.altura
+p
+  strong Iskid:
+  = @paciente.iskid
+
+= link_to 'Edit', edit_paciente_path(@paciente)
+'|
+= link_to 'Back', pacientes_path
