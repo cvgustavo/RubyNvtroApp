@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nome: MyString
+  convenio_id: 
+  carteiranumero: MyString
+  idade: 2014-09-15
+  peso: 9.99
+  altura: 9.99
+  iskid: false
+
+two:
+  nome: MyString
+  convenio_id: 
+  carteiranumero: MyString
+  idade: 2014-09-15
+  peso: 9.99
+  altura: 9.99
+  iskid: false

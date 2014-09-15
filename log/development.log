@@ -132,3 +132,96 @@ Started GET "/" for 177.98.219.36 at 2014-09-15 05:48:09 -0300
 Processing by Rails::WelcomeController#index as HTML
   Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (1.6ms)
 Completed 200 OK in 19ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (10.7ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (10.1ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateConvenios (20140915224240)
+  [1m[35m (3.3ms)[0m  CREATE TABLE `convenios` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `nome` varchar(255), `tipo` varchar(255), `urllogo` varchar(255), `site` varchar(255), `datalimitefaturamento` date, `faturamentomedio` decimal(8,2), `ultimofaturamento` decimal(8,2), `qtdpacientes` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140915224240')
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateContatos (20140915225406)
+  [1m[35m (2.7ms)[0m  CREATE TABLE `contatos` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `nome` varchar(255), `funcao` varchar(255), `telefone` varchar(255), `celular` varchar(255), `email` varchar(255), `donocontato_id` int(11), `donocontato_type` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (7.1ms)[0m  [1mCREATE INDEX `index_contatos_on_donocontato_id_and_donocontato_type` ON `contatos` (`donocontato_id`, `donocontato_type`) [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140915225406')[0m
+  [1m[35m (4.1ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateEnderecos (20140915225720)
+  [1m[35m (3.0ms)[0m  CREATE TABLE `enderecos` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `nome` varchar(255), `rua` varchar(255), `numero` varchar(255), `complemento` varchar(255), `CEP` varchar(255), `cidade` varchar(255), `estado` varchar(255), `donoendereco_id` int(11), `donoendereco_type` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (5.8ms)[0m  [1mCREATE INDEX `index_enderecos_on_donoendereco_id_and_donoendereco_type` ON `enderecos` (`donoendereco_id`, `donoendereco_type`) [0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140915225720')[0m
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateHospitals (20140915230343)
+  [1m[35m (2.9ms)[0m  CREATE TABLE `hospitals` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `nome` varchar(255), `diasprontuario` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140915230343')
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreatePacientes (20140915231222)
+  [1m[35m (13.8ms)[0m  CREATE TABLE `pacientes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `nome` varchar(255), `convenio_id` int(11), `carteiranumero` varchar(255), `idade` date, `peso` decimal(8,2), `altura` decimal(8,2), `iskid` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (11.7ms)[0m  [1mCREATE INDEX `index_pacientes_on_convenio_id` ON `pacientes` (`convenio_id`) [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140915231222')[0m
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateInternacaos (20140915233116)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateInternacaos (20140915233116)
+  [1m[35m (6.9ms)[0m  CREATE TABLE `internacaos` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `gih` varchar(255), `validade` date, `leito` varchar(255), `hospital_id` int(11), `paciente_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140915233116')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreatePrescricaones (20140915233540)
+  [1m[35m (2.9ms)[0m  CREATE TABLE `prescricaones` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `data` date, `custo` decimal(8,8), `valorfaturado` decimal(8,8), `paciente_id` int(11), `internacao_id` int(11), `nutricionista` varchar(255), `equipo` varchar(255), `autorizacaourl` varchar(255), `contamedicaurl` varchar(255), `checagemurl` varchar(255), `entregaurl` varchar(255), `motoqueiro` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (9.9ms)[0m  [1mCREATE INDEX `index_prescricaones_on_paciente_id` ON `prescricaones` (`paciente_id`) [0m
+  [1m[35m (6.3ms)[0m  CREATE INDEX `index_prescricaones_on_internacao_id` ON `prescricaones` (`internacao_id`) 
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140915233540')
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateEtapanes (20140915233745)
+  [1m[35m (3.5ms)[0m  CREATE TABLE `etapanes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `qtd` varchar(255), `volume` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140915233745')
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateFabricantes (20140915233955)
+  [1m[35m (3.8ms)[0m  CREATE TABLE `fabricantes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `nome` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140915233955')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+Migrating to CreateTipoprodutos (20140915234015)
+  [1m[35m (2.2ms)[0m  CREATE TABLE `tipoprodutos` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `nome` varchar(255), `descricao` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140915234015')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Migrating to CreateProdutos (20140915234048)
+  [1m[35m (1.9ms)[0m  CREATE TABLE `produtos` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `nome` varchar(255), `custo` varchar(255), `fabricante_id` int(11), `tipoproduto_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (10.9ms)[0m  [1mCREATE INDEX `index_produtos_on_fabricante_id` ON `produtos` (`fabricante_id`) [0m
+  [1m[35m (7.1ms)[0m  CREATE INDEX `index_produtos_on_tipoproduto_id` ON `produtos` (`tipoproduto_id`) 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140915234048')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateLinhaetapanes (20140915234556)
+  [1m[35m (3.5ms)[0m  CREATE TABLE `linhaetapanes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `produto` varchar(255), `qtd` decimal(8,4), `custo` decimal(8,8), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140915234556')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`

@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nome: MyString
+  tipo: MyString
+  urllogo: MyString
+  site: MyString
+  datalimitefaturamento: 2014-09-15
+  faturamentomedio: 9.99
+  ultimofaturamento{8,2}: MyString
+  qtdpacientes: 1
+
+two:
+  nome: MyString
+  tipo: MyString
+  urllogo: MyString
+  site: MyString
+  datalimitefaturamento: 2014-09-15
+  faturamentomedio: 9.99
+  ultimofaturamento{8,2}: MyString
+  qtdpacientes: 1

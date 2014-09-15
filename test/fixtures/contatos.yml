@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nome: MyString
+  funcao: MyString
+  telefone: MyString
+  celular: MyString
+  email: MyString
+  donocontato_id: 
+  donocontato_type: Donocontato
+
+two:
+  nome: MyString
+  funcao: MyString
+  telefone: MyString
+  celular: MyString
+  email: MyString
+  donocontato_id: 
+  donocontato_type: Donocontato

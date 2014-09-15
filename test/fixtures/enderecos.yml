@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nome: MyString
+  rua: MyString
+  numero: MyString
+  complemento: MyString
+  CEP: MyString
+  cidade: MyString
+  estado: MyString
+  donoendereco_id: 
+  donoendereco_type: Donoendereco
+
+two:
+  nome: MyString
+  rua: MyString
+  numero: MyString
+  complemento: MyString
+  CEP: MyString
+  cidade: MyString
+  estado: MyString
+  donoendereco_id: 
+  donoendereco_type: Donoendereco
