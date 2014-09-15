@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  data: 2014-09-15
+  custo: 9.99
+  valorfaturado: 9.99
+  paciente_id: 
+  internacao_id: 
+  nutricionista: MyString
+  equipo: MyString
+  autorizacaourl: MyString
+  contamedicaurl: MyString
+  checagemurl: MyString
+  entregaurl: MyString
+  motoqueiro: MyString
+
+two:
+  data: 2014-09-15
+  custo: 9.99
+  valorfaturado: 9.99
+  paciente_id: 
+  internacao_id: 
+  nutricionista: MyString
+  equipo: MyString
+  autorizacaourl: MyString
+  contamedicaurl: MyString
+  checagemurl: MyString
+  entregaurl: MyString
+  motoqueiro: MyString

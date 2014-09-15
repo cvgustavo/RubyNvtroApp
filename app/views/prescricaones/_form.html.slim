@@ -1,0 +1,45 @@
+= form_for @prescricaone do |f|
+  - if @prescricaone.errors.any?
+    #error_explanation
+      h2 = "#{pluralize(@prescricaone.errors.count, "error")} prohibited this prescricaone from being saved:"
+      ul
+        - @prescricaone.errors.full_messages.each do |message|
+          li = message
+
+  .field
+    = f.label :data
+    = f.date_select :data
+  .field
+    = f.label :custo
+    = f.text_field :custo
+  .field
+    = f.label :valorfaturado
+    = f.text_field :valorfaturado
+  .field
+    = f.label :paciente
+    = f.text_field :paciente
+  .field
+    = f.label :internacao
+    = f.text_field :internacao
+  .field
+    = f.label :nutricionista
+    = f.text_field :nutricionista
+  .field
+    = f.label :equipo
+    = f.text_field :equipo
+  .field
+    = f.label :autorizacaourl
+    = f.text_field :autorizacaourl
+  .field
+    = f.label :contamedicaurl
+    = f.text_field :contamedicaurl
+  .field
+    = f.label :checagemurl
+    = f.text_field :checagemurl
+  .field
+    = f.label :entregaurl
+    = f.text_field :entregaurl
+  .field
+    = f.label :motoqueiro
+    = f.text_field :motoqueiro
+  .actions = f.submit 'Save'

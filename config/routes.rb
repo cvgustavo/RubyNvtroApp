@@ -1,4 +1,6 @@
 NvtroApp::Application.routes.draw do
+  resources :prescricaones
+
   resources :pacientes
 
   # The priority is based upon order of creation: first created -> highest priority.
