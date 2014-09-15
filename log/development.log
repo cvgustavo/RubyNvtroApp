@@ -199,3 +199,22 @@ Migrating to CreateEtapanes (20140915233745)
   [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140915233745')
   [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateFabricantes (20140915233955)
+  [1m[35m (3.8ms)[0m  CREATE TABLE `fabricantes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `nome` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140915233955')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+Migrating to CreateTipoprodutos (20140915234015)
+  [1m[35m (2.2ms)[0m  CREATE TABLE `tipoprodutos` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `nome` varchar(255), `descricao` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140915234015')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Migrating to CreateProdutos (20140915234048)
+  [1m[35m (1.9ms)[0m  CREATE TABLE `produtos` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `nome` varchar(255), `custo` varchar(255), `fabricante_id` int(11), `tipoproduto_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (10.9ms)[0m  [1mCREATE INDEX `index_produtos_on_fabricante_id` ON `produtos` (`fabricante_id`) [0m
+  [1m[35m (7.1ms)[0m  CREATE INDEX `index_produtos_on_tipoproduto_id` ON `produtos` (`tipoproduto_id`) 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140915234048')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`

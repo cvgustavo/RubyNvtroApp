@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140915233745) do
+ActiveRecord::Schema.define(version: 20140915234048) do
 
   create_table "contatos", force: true do |t|
     t.string   "nome"
@@ -59,6 +59,12 @@ ActiveRecord::Schema.define(version: 20140915233745) do
   create_table "etapanes", force: true do |t|
     t.string   "qtd"
     t.string   "volume"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "fabricantes", force: true do |t|
+    t.string   "nome"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -113,5 +119,24 @@ ActiveRecord::Schema.define(version: 20140915233745) do
 
   add_index "prescricaones", ["internacao_id"], name: "index_prescricaones_on_internacao_id", using: :btree
   add_index "prescricaones", ["paciente_id"], name: "index_prescricaones_on_paciente_id", using: :btree
+
+  create_table "produtos", force: true do |t|
+    t.string   "nome"
+    t.string   "custo"
+    t.integer  "fabricante_id"
+    t.integer  "tipoproduto_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "produtos", ["fabricante_id"], name: "index_produtos_on_fabricante_id", using: :btree
+  add_index "produtos", ["tipoproduto_id"], name: "index_produtos_on_tipoproduto_id", using: :btree
+
+  create_table "tipoprodutos", force: true do |t|
+    t.string   "nome"
+    t.string   "descricao"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

@@ -1,4 +1,6 @@
 NvtroApp::Application.routes.draw do
+  resources :produtos
+
   resources :prescricaones
 
   resources :pacientes

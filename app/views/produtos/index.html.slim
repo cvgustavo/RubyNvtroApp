@@ -1,0 +1,27 @@
+h1 Listing produtos
+
+table
+  thead
+    tr
+      th Nome
+      th Custo
+      th Fabricante
+      th Tipoproduto
+      th
+      th
+      th
+
+  tbody
+    - @produtos.each do |produto|
+      tr
+        td = produto.nome
+        td = produto.custo
+        td = produto.fabricante
+        td = produto.tipoproduto
+        td = link_to 'Show', produto
+        td = link_to 'Edit', edit_produto_path(produto)
+        td = link_to 'Destroy', produto, data: {:confirm => 'Are you sure?'}, :method => :delete
+
+br
+
+= link_to 'New Produto', new_produto_path
