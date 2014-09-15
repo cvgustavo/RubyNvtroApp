@@ -18,6 +18,7 @@ gem 'slim'
 gem 'simple_form'
 gem 'cocoon'
 gem "twitter-bootstrap-rails"
+gem 'slim-rails'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
