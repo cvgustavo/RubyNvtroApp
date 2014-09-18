@@ -14,11 +14,22 @@ gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
-gem 'slim'
+
+#Simple Forms
 gem 'simple_form'
+
+#Simple Dinamic Forms
 gem 'cocoon'
+
+#Beautiful prototype
 gem "twitter-bootstrap-rails"
+
+#Slim Lang
+gem 'slim'
 gem 'slim-rails'
+
+# PaperClip Attachments
+gem "paperclip", "~> 4.2"
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
