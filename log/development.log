@@ -684,3 +684,25 @@ Migrating to RemoveAutorizacaourlContamedicaurlChecagemurlEntregaurlFromPrescric
   [1m[36mSQL (2.2ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140918134625')[0m
   [1m[35m (0.9ms)[0m  COMMIT
   [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddAttachmentAutorizacaoContamedicaChecagemEntregaToPrescricaones (20140918134910)
+  [1m[35m (7.7ms)[0m  ALTER TABLE `prescricaones` ADD `autorizacao_file_name` varchar(255)
+  [1m[36m (6.2ms)[0m  [1mALTER TABLE `prescricaones` ADD `autorizacao_content_type` varchar(255)[0m
+  [1m[35m (9.4ms)[0m  ALTER TABLE `prescricaones` ADD `autorizacao_file_size` int(11)
+  [1m[36m (5.1ms)[0m  [1mALTER TABLE `prescricaones` ADD `autorizacao_updated_at` datetime[0m
+  [1m[35m (4.6ms)[0m  ALTER TABLE `prescricaones` ADD `contamedica_file_name` varchar(255)
+  [1m[36m (5.9ms)[0m  [1mALTER TABLE `prescricaones` ADD `contamedica_content_type` varchar(255)[0m
+  [1m[35m (6.6ms)[0m  ALTER TABLE `prescricaones` ADD `contamedica_file_size` int(11)
+  [1m[36m (3.8ms)[0m  [1mALTER TABLE `prescricaones` ADD `contamedica_updated_at` datetime[0m
+  [1m[35m (5.1ms)[0m  ALTER TABLE `prescricaones` ADD `checagem_file_name` varchar(255)
+  [1m[36m (4.7ms)[0m  [1mALTER TABLE `prescricaones` ADD `checagem_content_type` varchar(255)[0m
+  [1m[35m (4.2ms)[0m  ALTER TABLE `prescricaones` ADD `checagem_file_size` int(11)
+  [1m[36m (3.7ms)[0m  [1mALTER TABLE `prescricaones` ADD `checagem_updated_at` datetime[0m
+  [1m[35m (4.2ms)[0m  ALTER TABLE `prescricaones` ADD `entrega_file_name` varchar(255)
+  [1m[36m (4.2ms)[0m  [1mALTER TABLE `prescricaones` ADD `entrega_content_type` varchar(255)[0m
+  [1m[35m (3.6ms)[0m  ALTER TABLE `prescricaones` ADD `entrega_file_size` int(11)
+  [1m[36m (3.7ms)[0m  [1mALTER TABLE `prescricaones` ADD `entrega_updated_at` datetime[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140918134910')[0m
+  [1m[35m (1.8ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
