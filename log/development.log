@@ -674,3 +674,13 @@ Started GET "/assets/application.js?body=1" for 179.180.229.166 at 2014-09-17 11
 
 
 Started GET "/assets/logonvtro.png" for 179.180.229.166 at 2014-09-17 11:43:08 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to RemoveAutorizacaourlContamedicaurlChecagemurlEntregaurlFromPrescricaone (20140918134625)
+  [1m[35m (16.0ms)[0m  ALTER TABLE `prescricaones` DROP `autorizacaourl`
+  [1m[36m (4.6ms)[0m  [1mALTER TABLE `prescricaones` DROP `contamedicaurl`[0m
+  [1m[35m (3.6ms)[0m  ALTER TABLE `prescricaones` DROP `checagemurl`
+  [1m[36m (3.6ms)[0m  [1mALTER TABLE `prescricaones` DROP `entregaurl`[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (2.2ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140918134625')[0m
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
