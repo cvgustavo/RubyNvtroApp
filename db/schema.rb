@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140918134910) do
+ActiveRecord::Schema.define(version: 20140919033454) do
 
   create_table "contatos", force: true do |t|
     t.string   "nome"
@@ -30,11 +30,9 @@ ActiveRecord::Schema.define(version: 20140918134910) do
   create_table "convenios", force: true do |t|
     t.string   "nome"
     t.string   "tipo"
-    t.string   "urllogo"
     t.string   "site"
-    t.date     "datalimitefaturamento"
-    t.decimal  "faturamentomedio",      precision: 8, scale: 2
-    t.decimal  "ultimofaturamento",     precision: 8, scale: 2
+    t.decimal  "faturamentomedio",  precision: 8, scale: 2
+    t.decimal  "ultimofaturamento", precision: 8, scale: 2
     t.integer  "qtdpacientes"
     t.datetime "created_at"
     t.datetime "updated_at"
