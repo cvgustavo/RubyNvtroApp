@@ -14,3 +14,9 @@
 body { 
     padding-top: 65px; 
 }
+a:hover { color: blue !important; }
+.navbar .brand{
+	background-color: transparent !important;
+	padding:4px 4px 4px !important;
+
+}

@@ -1570,3 +1570,3594 @@ Processing by ProdutosController#index as HTML
   [1m[36mProduto Load (0.1ms)[0m  [1mSELECT `produtos`.* FROM `produtos`[0m
   Rendered produtos/index.html.slim within layouts/application (0.9ms)
 Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 22:17:24 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (14.6ms)
+Completed 200 OK in 293ms (Views: 281.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 22:17:24 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 22:17:24 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 22:17:24 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 22:17:24 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 22:17:24 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 22:17:24 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:25 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 22:17:26 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 22:17:26 -0300
+
+
+Started GET "/images/favicon.ico" for 179.183.234.254 at 2014-09-18 22:17:26 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (31.9ms)
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 22:37:32 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 121ms (Views: 119.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 22:37:32 -0300
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 22:37:32 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 22:37:32 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 22:37:32 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 22:37:32 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 22:37:32 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 22:37:33 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 22:38:56 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 107ms (Views: 105.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 22:38:57 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 22:47:20 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 222ms (Views: 220.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:21 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:22 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:22 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:22 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:22 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 22:47:22 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 22:47:22 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 22:47:25 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (5.8ms)
+Completed 200 OK in 125ms (Views: 123.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 22:47:26 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.2ms)
+Completed 200 OK in 202ms (Views: 200.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 22:47:31 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 22:47:31 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 22:47:31 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 22:47:31 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 22:47:31 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 22:47:31 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 22:47:31 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 22:47:31 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 22:47:31 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 22:47:31 -0300
+
+
+Started GET "/pacientes" for 179.183.234.254 at 2014-09-18 22:48:16 -0300
+Processing by PacientesController#index as HTML
+  [1m[35mPaciente Load (0.2ms)[0m  SELECT `pacientes`.* FROM `pacientes`
+  Rendered pacientes/index.html.slim within layouts/application (6.3ms)
+Completed 200 OK in 64ms (Views: 59.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 22:50:07 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 54ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 22:50:08 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 89ms (Views: 88.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 22:50:09 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.2ms)
+Completed 200 OK in 173ms (Views: 171.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 22:51:14 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 66ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 22:51:14 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 22:51:14 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 22:51:14 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 22:51:14 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 22:51:14 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 22:51:14 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 22:51:14 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 22:51:15 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 22:51:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 46ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 22:51:18 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 22:51:18 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 22:51:18 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 22:51:18 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 22:51:18 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 22:51:18 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 22:51:18 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 22:51:18 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 22:51:18 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 22:51:18 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:18 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 22:51:19 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 22:51:26 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 90ms (Views: 89.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 22:52:41 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 22:52:42 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.2ms)
+Completed 200 OK in 123ms (Views: 122.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pacientes" for 179.183.234.254 at 2014-09-18 22:53:25 -0300
+Processing by PacientesController#index as HTML
+  [1m[36mPaciente Load (0.2ms)[0m  [1mSELECT `pacientes`.* FROM `pacientes`[0m
+  Rendered pacientes/index.html.slim within layouts/application (1.0ms)
+Completed 200 OK in 58ms (Views: 56.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 22:55:26 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (61.9ms)
+Completed 200 OK in 371ms (Views: 359.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 22:55:27 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 22:55:27 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 22:55:27 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 22:55:27 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 22:55:27 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 22:55:27 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 22:55:27 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 22:55:27 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 22:55:27 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 22:55:27 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:27 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:27 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:27 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:27 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:28 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:28 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:28 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:28 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:28 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:28 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:28 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:28 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:28 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:28 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:28 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:28 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:28 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:28 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:28 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:28 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:28 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:28 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:28 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 22:55:28 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 22:55:40 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 90ms (Views: 88.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 22:55:40 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 22:55:40 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 22:55:40 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 22:55:40 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 22:55:40 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 22:55:40 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 22:55:40 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 22:55:40 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 22:55:40 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 22:55:40 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:40 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 22:55:41 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 22:55:47 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (5.1ms)
+Completed 200 OK in 105ms (Views: 103.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 22:56:34 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 67ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 22:56:35 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:36 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 22:56:42 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 69ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 22:56:43 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 85ms (Views: 83.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:56 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:57 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:57 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:57 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:57 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:57 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 22:58:57 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 22:58:57 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:00:03 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 163ms (Views: 161.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:04 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:05 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 23:00:05 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:00:52 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 211ms (Views: 210.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:53 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:54 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:54 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:54 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:54 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 23:00:54 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 23:00:54 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 122ms (Views: 121.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:45 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:45 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:45 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:45 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:45 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:45 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:45 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:45 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:45 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 23:01:45 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 23:01:45 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:11:30 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 48ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:15:21 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (27.8ms)
+Completed 200 OK in 422ms (Views: 399.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 23:15:22 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 23:15:22 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 23:15:22 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:23 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:24 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:24 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:24 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:24 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:24 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:24 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:24 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:24 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:25 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:25 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:25 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:25 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:25 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:25 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 23:15:25 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:15:43 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 50ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 23:15:44 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:16:20 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 64.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 23:16:20 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 23:16:21 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:16:33 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (2.4ms)
+Completed 200 OK in 48ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 23:16:37 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 23:16:37 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 23:16:37 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 23:16:37 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 23:16:37 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 23:16:37 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 23:16:37 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 23:16:37 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 23:16:37 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 23:16:37 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:22:16 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 111ms (Views: 110.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 23:22:16 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 23:22:16 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 23:22:16 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 23:22:16 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 23:22:16 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 23:22:16 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 23:22:16 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 23:22:16 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 23:22:16 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 23:22:16 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:16 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:16 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 23:22:17 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:22:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 99ms (Views: 98.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 23:22:18 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 23:22:18 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 23:22:18 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 23:22:18 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 23:22:18 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 23:22:18 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 23:22:18 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 23:22:18 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 23:22:18 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 23:22:18 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:18 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 23:22:19 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:25:19 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 122ms (Views: 121.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 23:25:19 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 23:25:19 -0300
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 23:25:19 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 23:25:19 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 23:25:19 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 23:25:19 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 23:25:19 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 23:25:20 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 106ms (Views: 105.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:42 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:43 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:43 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:43 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:43 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:43 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:43 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 23:25:43 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 23:25:43 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:25:51 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 48ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:27:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 23:27:53 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 23:27:53 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 23:27:53 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 23:27:54 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:28:19 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 23:28:20 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:28:34 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 69ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 23:28:35 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:30:17 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 115ms (Views: 114.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 23:30:17 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 23:30:17 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 23:30:17 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 23:30:17 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 23:30:17 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 23:30:17 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 23:30:17 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 23:30:17 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 23:30:17 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 23:30:17 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:17 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:17 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:17 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:17 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:18 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:18 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:18 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:18 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:18 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:18 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:18 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 23:30:18 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 23:30:18 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:31:05 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 120ms (Views: 119.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 23:31:06 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 123ms (Views: 122.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:43 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:44 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 23:31:44 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 23:31:44 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:31:55 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 48ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:32:29 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 70ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 23:32:29 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 23:32:29 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 23:32:30 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 111ms (Views: 110.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:55 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:56 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:56 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:56 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 23:32:56 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 23:32:56 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:33:26 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 110ms (Views: 109.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 23:33:27 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:34:25 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 195ms (Views: 193.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.183.234.254 at 2014-09-18 23:34:25 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.183.234.254 at 2014-09-18 23:34:25 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.183.234.254 at 2014-09-18 23:34:25 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.183.234.254 at 2014-09-18 23:34:25 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.183.234.254 at 2014-09-18 23:34:25 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.183.234.254 at 2014-09-18 23:34:25 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.183.234.254 at 2014-09-18 23:34:25 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.183.234.254 at 2014-09-18 23:34:25 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.183.234.254 at 2014-09-18 23:34:25 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.183.234.254 at 2014-09-18 23:34:25 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:25 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:25 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/assets/logo100.png" for 179.183.234.254 at 2014-09-18 23:34:26 -0300
+
+
+Started GET "/" for 179.183.234.254 at 2014-09-18 23:34:36 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.0ms)
