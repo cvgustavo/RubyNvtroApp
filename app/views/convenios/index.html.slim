@@ -1,0 +1,22 @@
+h2 Convenios
+
+table.table
+  thead
+    tr
+	  th
+      th
+
+  tbody
+    - @convenios.each do |convenio|
+      tr
+	    td = convenio.nome
+        td 
+		  = link_to 'Detalhes', convenio
+          '
+		  = link_to 'Editar', edit_convenio_path(convenio)
+          '
+		  = link_to 'Apagar', convenio, data: {:confirm => 'Tem certeza?'}, :method => :delete
+
+br
+
+= link_to 'Criar Novo Convenio', new_convenio_path

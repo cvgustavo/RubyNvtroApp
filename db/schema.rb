@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140915234556) do
+ActiveRecord::Schema.define(version: 20140919033454) do
 
   create_table "contatos", force: true do |t|
     t.string   "nome"
@@ -30,11 +30,9 @@ ActiveRecord::Schema.define(version: 20140915234556) do
   create_table "convenios", force: true do |t|
     t.string   "nome"
     t.string   "tipo"
-    t.string   "urllogo"
     t.string   "site"
-    t.date     "datalimitefaturamento"
-    t.decimal  "faturamentomedio",      precision: 8, scale: 2
-    t.decimal  "ultimofaturamento",     precision: 8, scale: 2
+    t.decimal  "faturamentomedio",  precision: 8, scale: 2
+    t.decimal  "ultimofaturamento", precision: 8, scale: 2
     t.integer  "qtdpacientes"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -110,19 +108,31 @@ ActiveRecord::Schema.define(version: 20140915234556) do
 
   create_table "prescricaones", force: true do |t|
     t.date     "data"
-    t.decimal  "custo",          precision: 8, scale: 8
-    t.decimal  "valorfaturado",  precision: 8, scale: 8
+    t.decimal  "custo",                    precision: 8, scale: 8
+    t.decimal  "valorfaturado",            precision: 8, scale: 8
     t.integer  "paciente_id"
     t.integer  "internacao_id"
     t.string   "nutricionista"
     t.string   "equipo"
-    t.string   "autorizacaourl"
-    t.string   "contamedicaurl"
-    t.string   "checagemurl"
-    t.string   "entregaurl"
     t.string   "motoqueiro"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "autorizacao_file_name"
+    t.string   "autorizacao_content_type"
+    t.integer  "autorizacao_file_size"
+    t.datetime "autorizacao_updated_at"
+    t.string   "contamedica_file_name"
+    t.string   "contamedica_content_type"
+    t.integer  "contamedica_file_size"
+    t.datetime "contamedica_updated_at"
+    t.string   "checagem_file_name"
+    t.string   "checagem_content_type"
+    t.integer  "checagem_file_size"
+    t.datetime "checagem_updated_at"
+    t.string   "entrega_file_name"
+    t.string   "entrega_content_type"
+    t.integer  "entrega_file_size"
+    t.datetime "entrega_updated_at"
   end
 
   add_index "prescricaones", ["internacao_id"], name: "index_prescricaones_on_internacao_id", using: :btree

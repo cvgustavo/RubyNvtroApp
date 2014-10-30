@@ -28,12 +28,13 @@ html lang="en"
             span.icon-bar
             span.icon-bar
             span.icon-bar
-          a.brand href="#"NvtroApp
+          a.brand.glow href="/"
+		    = image_tag "logo100.png"
           .container.nav-collapse
             ul.nav
-              li= link_to "Link 1", "/path1"
-              li= link_to "Link 2", "/path2"
-              li= link_to "Link 3", "/path3"
+              li= link_to "Pacientes", pacientes_path
+              li= link_to "Produtos", produtos_path
+              li= link_to "Convenios", convenios_path
 
     .container
 
@@ -43,12 +44,12 @@ html lang="en"
           = yield
         .span3
           .well.sidebar-nav
-            h3 Sidebar
+            h3 Menu
             ul.nav.nav-list
-              li.nav-header Sidebar
-              li= link_to "Link 1", "/path1"
-              li= link_to "Link 2", "/path2"
-              li= link_to "Link 3", "/path3"
+              li.nav-header Menu
+              li= link_to "Pacientes", pacientes_path
+              li= link_to "Produtos", produtos_path
+              li= link_to "Convenios", convenios_path
     
       footer
         p &copy; Company 2014

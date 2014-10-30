@@ -1,0 +1,15 @@
+p#notice = notice
+
+.panel.panel-default
+  .panel-head
+    h2 = @convenio.nome
+  .panel-body
+    ul
+	  li = @convenio.tipo
+	  li = @convenio.site
+  
+
+
+= link_to 'Edit', edit_convenio_path(@convenio)
+'|
+= link_to 'Back', convenios_path
