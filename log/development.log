@@ -7325,3 +7325,655 @@ Migrating to RemoveUrllogoFromConvenio (20140919033454)
   [1m[35mSQL (0.4ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140919033454')
   [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+
+
+Started GET "/convenios/1" for 179.183.234.254 at 2014-09-19 00:39:34 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by ConveniosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mConvenio Load (0.4ms)[0m  SELECT `convenios`.* FROM `convenios` WHERE `convenios`.`id` = 1 LIMIT 1
+  Rendered convenios/show.html.slim within layouts/application (15.7ms)
+Completed 200 OK in 359ms (Views: 332.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/convenios" for 179.183.234.254 at 2014-09-19 00:39:40 -0300
+Processing by ConveniosController#index as HTML
+  [1m[36mConvenio Load (0.4ms)[0m  [1mSELECT `convenios`.* FROM `convenios`[0m
+  Rendered convenios/index.html.slim within layouts/application (7.6ms)
+Completed 200 OK in 56ms (Views: 54.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pacientes" for 179.183.234.254 at 2014-09-19 00:39:42 -0300
+Processing by PacientesController#index as HTML
+  [1m[35mPaciente Load (0.2ms)[0m  SELECT `pacientes`.* FROM `pacientes`
+  Rendered pacientes/index.html.slim within layouts/application (6.9ms)
+Completed 200 OK in 61ms (Views: 56.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/produtos" for 179.183.234.254 at 2014-09-19 00:39:44 -0300
+Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT `produtos`.* FROM `produtos`[0m
+  Rendered produtos/index.html.slim within layouts/application (6.4ms)
+Completed 200 OK in 65ms (Views: 60.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pacientes" for 179.183.234.254 at 2014-09-19 00:39:46 -0300
+Processing by PacientesController#index as HTML
+  [1m[35mPaciente Load (0.2ms)[0m  SELECT `pacientes`.* FROM `pacientes`
+  Rendered pacientes/index.html.slim within layouts/application (1.2ms)
+Completed 200 OK in 145ms (Views: 143.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 179.187.156.115 at 2014-10-07 00:32:57 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (15.7ms)
+Completed 200 OK in 340ms (Views: 329.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.187.156.115 at 2014-10-07 00:32:58 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.187.156.115 at 2014-10-07 00:32:58 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.187.156.115 at 2014-10-07 00:32:58 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.187.156.115 at 2014-10-07 00:32:58 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.187.156.115 at 2014-10-07 00:32:58 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.187.156.115 at 2014-10-07 00:32:58 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.187.156.115 at 2014-10-07 00:32:58 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.187.156.115 at 2014-10-07 00:32:58 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.187.156.115 at 2014-10-07 00:32:58 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/assets/logo100.png" for 179.187.156.115 at 2014-10-07 00:32:59 -0300
+
+
+Started GET "/images/favicon.ico" for 179.187.156.115 at 2014-10-07 00:33:00 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (48.1ms)
+
+
+Started GET "/pacientes" for 179.187.156.115 at 2014-10-07 00:33:02 -0300
+Processing by PacientesController#index as HTML
+  [1m[35mPaciente Load (0.4ms)[0m  SELECT `pacientes`.* FROM `pacientes`
+  Rendered pacientes/index.html.slim within layouts/application (9.2ms)
+Completed 200 OK in 119ms (Views: 106.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 179.187.156.115 at 2014-10-07 00:33:03 -0300
+
+
+Started GET "/pacientes" for 179.187.156.115 at 2014-10-07 00:33:06 -0300
+Processing by PacientesController#index as HTML
+  [1m[36mPaciente Load (0.2ms)[0m  [1mSELECT `pacientes`.* FROM `pacientes`[0m
+  Rendered pacientes/index.html.slim within layouts/application (1.2ms)
+Completed 200 OK in 49ms (Views: 48.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pacientes" for 179.187.156.115 at 2014-10-07 00:33:07 -0300
+Processing by PacientesController#index as HTML
+  [1m[35mPaciente Load (0.1ms)[0m  SELECT `pacientes`.* FROM `pacientes`
+  Rendered pacientes/index.html.slim within layouts/application (0.9ms)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/produtos" for 179.187.156.115 at 2014-10-07 00:33:07 -0300
+Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (0.4ms)[0m  [1mSELECT `produtos`.* FROM `produtos`[0m
+  Rendered produtos/index.html.slim within layouts/application (7.3ms)
+Completed 200 OK in 105ms (Views: 96.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/convenios" for 179.187.156.115 at 2014-10-07 00:33:08 -0300
+Processing by ConveniosController#index as HTML
+  [1m[35mConvenio Load (0.4ms)[0m  SELECT `convenios`.* FROM `convenios`
+  Rendered convenios/index.html.slim within layouts/application (19.1ms)
+Completed 200 OK in 118ms (Views: 113.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 186.213.50.65 at 2014-10-26 20:15:50 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (15.0ms)
+Completed 200 OK in 323ms (Views: 313.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 186.213.50.65 at 2014-10-26 20:15:51 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 186.213.50.65 at 2014-10-26 20:15:51 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 186.213.50.65 at 2014-10-26 20:15:51 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 186.213.50.65 at 2014-10-26 20:15:51 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 186.213.50.65 at 2014-10-26 20:15:51 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 186.213.50.65 at 2014-10-26 20:15:51 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 186.213.50.65 at 2014-10-26 20:15:51 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 186.213.50.65 at 2014-10-26 20:15:51 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 186.213.50.65 at 2014-10-26 20:15:52 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 186.213.50.65 at 2014-10-26 20:15:52 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:52 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:52 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:52 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:52 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:52 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:52 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:52 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:52 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:52 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:52 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:52 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:52 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:52 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:52 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:52 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:52 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:52 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:53 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:53 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:53 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:53 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:53 -0300
+
+
+Started GET "/assets/application.js?body=1" for 186.213.50.65 at 2014-10-26 20:15:53 -0300
+
+
+Started GET "/assets/logo100.png" for 186.213.50.65 at 2014-10-26 20:15:53 -0300
+
+
+Started GET "/images/favicon.ico" for 186.213.50.65 at 2014-10-26 20:15:54 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (37.3ms)
+
+
+Started GET "/pacientes" for 186.213.50.65 at 2014-10-26 20:15:56 -0300
+Processing by PacientesController#index as HTML
+  [1m[35mPaciente Load (0.2ms)[0m  SELECT `pacientes`.* FROM `pacientes`
+  Rendered pacientes/index.html.slim within layouts/application (6.1ms)
+Completed 200 OK in 99ms (Views: 95.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pacientes" for 186.213.50.65 at 2014-10-26 20:16:44 -0300
+Processing by PacientesController#index as HTML
+  [1m[36mPaciente Load (0.2ms)[0m  [1mSELECT `pacientes`.* FROM `pacientes`[0m
+  Rendered pacientes/index.html.slim within layouts/application (1.6ms)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pacientes/new" for 186.213.50.65 at 2014-10-26 20:16:46 -0300
+Processing by PacientesController#new as HTML
+  Rendered pacientes/_form.html.slim (74.4ms)
+  Rendered pacientes/new.html.slim within layouts/application (78.9ms)
+Completed 200 OK in 178ms (Views: 172.9ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/pacientes" for 186.213.50.65 at 2014-10-26 20:17:16 -0300
+Processing by PacientesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"73uxz3igej8ryiv/pWWLInlHFkMKZ7GUXvaDc45E0Qo=", "paciente"=>{"nome"=>"Gustavo Vasconcelos", "convenio"=>"Nutrimed", "carteiranumero"=>"101", "idade(1i)"=>"2009", "idade(2i)"=>"10", "idade(3i)"=>"26", "peso"=>"94", "altura"=>"180", "iskid"=>"0"}, "commit"=>"Save"}
+Unpermitted parameters: convenio
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `pacientes` (`altura`, `carteiranumero`, `created_at`, `idade`, `iskid`, `nome`, `peso`, `updated_at`) VALUES (180.0, '101', '2014-10-26 23:17:16', '2009-10-26', 0, 'Gustavo Vasconcelos', 94.0, '2014-10-26 23:17:16')[0m
+  [1m[35m (0.9ms)[0m  COMMIT
+Redirected to http://nutrishop.com.br:3000/pacientes/1
+Completed 302 Found in 12ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/pacientes/1" for 186.213.50.65 at 2014-10-26 20:17:17 -0300
+Processing by PacientesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPaciente Load (0.5ms)[0m  [1mSELECT `pacientes`.* FROM `pacientes` WHERE `pacientes`.`id` = 1 LIMIT 1[0m
+  Rendered pacientes/show.html.slim within layouts/application (9.8ms)
+Completed 200 OK in 60ms (Views: 56.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/prescricaones" for 186.213.50.65 at 2014-10-26 20:17:25 -0300
+Processing by PrescricaonesController#index as HTML
+  [1m[35mPrescricaone Load (0.4ms)[0m  SELECT `prescricaones`.* FROM `prescricaones`
+  Rendered prescricaones/index.html.slim within layouts/application (8.6ms)
+Completed 200 OK in 76ms (Views: 57.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/prescricaones/new" for 186.213.50.65 at 2014-10-26 20:17:26 -0300
+Processing by PrescricaonesController#new as HTML
+  Rendered prescricaones/_form.html.slim (152.8ms)
+  Rendered prescricaones/new.html.slim within layouts/application (157.0ms)
+Completed 500 Internal Server Error in 165ms
+
+ActionView::Template::Error (undefined method `autorizacaourl' for #<Prescricaone:0x007fe61c7d8520>):
+    29:     = f.text_field :equipo
+    30:   .field
+    31:     = f.label :autorizacaourl
+    32:     = f.text_field :autorizacaourl
+    33:   .field
+    34:     = f.label :contamedicaurl
+    35:     = f.text_field :contamedicaurl
+  app/views/prescricaones/_form.html.slim:32:in `block in _app_views_prescricaones__form_html_slim__676355223834453204_70313148809940'
+  app/views/prescricaones/_form.html.slim:1:in `_app_views_prescricaones__form_html_slim__676355223834453204_70313148809940'
+  app/views/prescricaones/new.html.slim:3:in `_app_views_prescricaones_new_html_slim__2756694612446694848_70313148686120'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.0ms)
+
+
+Started GET "/prescricaones/new" for 186.213.50.65 at 2014-10-26 20:17:27 -0300
+Processing by PrescricaonesController#new as HTML
+  Rendered prescricaones/_form.html.slim (13.1ms)
+  Rendered prescricaones/new.html.slim within layouts/application (16.5ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (undefined method `autorizacaourl' for #<Prescricaone:0x007fe6285a0828>):
+    29:     = f.text_field :equipo
+    30:   .field
+    31:     = f.label :autorizacaourl
+    32:     = f.text_field :autorizacaourl
+    33:   .field
+    34:     = f.label :contamedicaurl
+    35:     = f.text_field :contamedicaurl
+  app/views/prescricaones/_form.html.slim:32:in `block in _app_views_prescricaones__form_html_slim__676355223834453204_70313248431560'
+  app/views/prescricaones/_form.html.slim:1:in `_app_views_prescricaones__form_html_slim__676355223834453204_70313248431560'
+  app/views/prescricaones/new.html.slim:3:in `_app_views_prescricaones_new_html_slim__2756694612446694848_70313248142260'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.1ms)
+
+
+Started GET "/favicon.ico" for 186.213.50.65 at 2014-10-26 20:17:27 -0300
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (35.3ms)
+
+
+Started GET "/" for 179.181.195.23 at 2014-10-30 15:01:52 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (14.7ms)
+Completed 200 OK in 353ms (Views: 342.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 179.181.195.23 at 2014-10-30 15:01:53 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 179.181.195.23 at 2014-10-30 15:01:53 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 179.181.195.23 at 2014-10-30 15:01:53 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 179.181.195.23 at 2014-10-30 15:01:53 -0300
+
+
+Started GET "/assets/hover.css?body=1" for 179.181.195.23 at 2014-10-30 15:01:53 -0300
+
+
+Started GET "/assets/pacientes.css?body=1" for 179.181.195.23 at 2014-10-30 15:01:53 -0300
+
+
+Started GET "/assets/prescricaones.css?body=1" for 179.181.195.23 at 2014-10-30 15:01:54 -0300
+
+
+Started GET "/assets/produtos.css?body=1" for 179.181.195.23 at 2014-10-30 15:01:54 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 179.181.195.23 at 2014-10-30 15:01:54 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 179.181.195.23 at 2014-10-30 15:01:54 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:54 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:54 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:54 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:54 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:55 -0300
+
+
+Started GET "/assets/pacientes.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:55 -0300
+
+
+Started GET "/assets/prescricaones.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:55 -0300
+
+
+Started GET "/assets/produtos.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:55 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:55 -0300
+
+
+Started GET "/assets/application.js?body=1" for 179.181.195.23 at 2014-10-30 15:01:55 -0300
+
+
+Started GET "/assets/logo100.png" for 179.181.195.23 at 2014-10-30 15:01:55 -0300
+
+
+Started GET "/images/favicon.ico" for 179.181.195.23 at 2014-10-30 15:01:55 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (37.2ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 179.181.195.23 at 2014-10-30 15:01:58 -0300
+
+
+Started GET "/pacientes" for 179.181.195.23 at 2014-10-30 15:02:57 -0300
+Processing by PacientesController#index as HTML
+  [1m[35mPaciente Load (0.5ms)[0m  SELECT `pacientes`.* FROM `pacientes`
+  Rendered pacientes/index.html.slim within layouts/application (73.3ms)
+Completed 200 OK in 125ms (Views: 118.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/pacientes/1/edit" for 179.181.195.23 at 2014-10-30 15:03:12 -0300
+Processing by PacientesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPaciente Load (0.2ms)[0m  [1mSELECT `pacientes`.* FROM `pacientes` WHERE `pacientes`.`id` = 1 LIMIT 1[0m
+  Rendered pacientes/_form.html.slim (22.8ms)
+  Rendered pacientes/edit.html.slim within layouts/application (27.0ms)
+Completed 200 OK in 79ms (Views: 75.8ms | ActiveRecord: 0.2ms)
