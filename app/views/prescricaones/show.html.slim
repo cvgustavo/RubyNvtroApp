@@ -1,0 +1,28 @@
+p#notice = notice
+
+p
+  strong Data:
+  = @prescricaone.data
+p
+  strong Custo:
+  = @prescricaone.custo
+p
+  strong Valorfaturado:
+  = @prescricaone.valorfaturado
+p
+  strong Paciente:
+  = @prescricaone.paciente
+p
+  strong Internacao:
+  = @prescricaone.internacao
+p
+  strong Nutricionista:
+  = @prescricaone.nutricionista
+p
+  strong Equipo:
+  = @prescricaone.equipo
+
+
+= link_to 'Edit', edit_prescricaone_path(@prescricaone)
+'|
+= link_to 'Back', prescricaones_path

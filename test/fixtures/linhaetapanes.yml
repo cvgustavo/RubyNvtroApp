@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  produto: MyString
+  qtd: 9.99
+  custo: 9.99
+
+two:
+  produto: MyString
+  qtd: 9.99
+  custo: 9.99

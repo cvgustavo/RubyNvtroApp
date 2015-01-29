@@ -1,0 +1,33 @@
+h1 Listing prescricaones
+
+table
+  thead
+    tr
+      th Data
+      th Custo
+      th Valorfaturado
+      th Paciente
+      th Internacao
+      th Nutricionista
+      th Equipo
+      th
+      th
+      th
+
+  tbody
+    - @prescricaones.each do |prescricaone|
+      tr
+        td = prescricaone.data
+        td = prescricaone.custo
+        td = prescricaone.valorfaturado
+        td = prescricaone.paciente
+        td = prescricaone.internacao
+        td = prescricaone.nutricionista
+        td = prescricaone.equipo
+        td = link_to 'Show', prescricaone
+        td = link_to 'Edit', edit_prescricaone_path(prescricaone)
+        td = link_to 'Destroy', prescricaone, data: {:confirm => 'Are you sure?'}, :method => :delete
+
+br
+
+= link_to 'New Prescricaone', new_prescricaone_path

@@ -1,0 +1,1 @@
+json.extract! @prescricaone, :id, :data, :custo, :valorfaturado, :paciente_id, :internacao_id, :nutricionista, :equipo, :autorizacaourl, :contamedicaurl, :checagemurl, :entregaurl, :motoqueiro, :created_at, :updated_at

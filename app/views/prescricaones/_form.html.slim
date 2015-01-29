@@ -1,0 +1,53 @@
+javascript:
+  $(document).ready(function(){
+    $('[data-behaviour~=datepicker]').datepicker({
+    format: "yyyy-mm-dd",
+    todayBtn: "linked",
+    language: "pt-BR",
+    orientation: "top auto"
+    });
+  })
+
+
+
+= simple_form_for @prescricaone, :html => { :class => "form-horizontal" }, :wrapper => 'bootstrap' do |f|
+  = f.input :data, as: :string, input_html: {value: f.object.data || Date.today,:"data-behaviour" => "datepicker"}, placeholder: Date.today
+  = f.input :nutricionista, collection: ["Karla","Fernando","Katia"]
+  
+
+    / .tab-content
+    / #tasks.active
+    /   = f.simple_fields_for :tasks, :wrapper => 'inline' do |task|
+    /     = render 'task_fields', :f => task
+    /   .links
+    /     = link_to_add_association 'add task', f, :tasks, :render_options => { :wrapper => 'inline' }
+
+
+  h3 Etapas
+  / .panel.panel-default
+  /   .panel-body
+  #etapane role='tabpanel'
+    = f.simple_fields_for :etapanes do |etapa| 
+      = render 'etapane_fields', :f => etapa
+    .links
+      = link_to_add_association 'Adicionar Etapa', f, :etapanes
+
+  .form-actions
+    = f.button :submit, :class => 'btn-primary btn-lg', value: "Salvar Prescrição"
+    '
+    = link_to "Cancelar", pacientes_path, :class => 'btn btn-lg'
+
+
+
+
+
+  / t.date     "data"
+  /   t.decimal  "custo",                    precision: 8, scale: 8
+  /   t.decimal  "valorfaturado",            precision: 8, scale: 8
+  /   t.integer  "paciente_id"
+  /   t.integer  "internacao_id"
+  /   t.string   "nutricionista"
+  /   t.string   "equipo"
+  /   t.string   "motoqueiro"
+  /   t.datetime "created_at"
+  /   t.datetime "updated_at"
